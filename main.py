@@ -1,14 +1,14 @@
 import requests
 import smtplib
 
-to_email = "venkatesanpoova@gmail.com"
-Password = "wdfsgjskotdmrzpu"
+to_email = "your email id"
+Password = "your password"
 
 OWN_endpoint = "https://api.openweathermap.org/data/2.5/forecast"
 api_key = "c750267ea8190faf190f8b8003ff7b9c"
 weather_params = {
-    "lat": 12.823530,
-    "lon": 80.045952,
+    "lat": 'your latitude',
+    "lon": 'your longitude',
     "appid": api_key,
     "cnt": 4,
 }
